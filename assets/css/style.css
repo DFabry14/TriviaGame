@@ -49,3 +49,11 @@ p {
     font-size: 64px;
     vertical-align: middle;
 }
+
+.wrong {
+    margin-left: 20px;
+}
+
+.correct {
+    margin-left: 20px;
+}

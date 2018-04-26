@@ -15,7 +15,6 @@ $(document).ready(function () {
             endGame();
         }
     }
-    // make game start and appear when start button pressed
     $(".game").hide();
     $(".results").hide();
 
@@ -46,13 +45,4 @@ $(document).ready(function () {
         $(".incorrect").text(incorrect);
         $(".unanswered").text(8- correct - incorrect);
     }
-
-    // start timer counting down from 20 seconds and stopping the game at 0
-
-
-    // make stop button also stop timer and game
-
-
-
-
 })
